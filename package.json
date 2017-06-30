@@ -1,0 +1,33 @@
+{
+  "name": "vuejs-test-mocha-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cd ./test && ../node_modules/.bin/mocha-webpack --require ./domMocker.js --webpack-config ./webpack.config.js helloWorld.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.7",
+    "chai": "^4.0.2",
+    "css-loader": "^0.28.4",
+    "jsdom": "^11.0.0",
+    "mocha": "^3.4.2",
+    "mocha-webpack": "^0.7.0",
+    "ts-loader": "^2.2.1",
+    "ts-node": "^3.1.0",
+    "typescript": "^2.3.4",
+    "vue": "^2.3.4",
+    "vue-class-component": "^5.0.2",
+    "vue-loader": "^13.0.0",
+    "vue-template-compiler": "^2.3.4",
+    "webidl-conversions": "^4.0.1",
+    "webpack-node-externals": "^1.6.0"
+  }
+}

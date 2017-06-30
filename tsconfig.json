@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "es2015",
+        "target": "es5",
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise"
+        ],
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./test/helloWorld.ts"
+    ],
+    "files": [
+        "./vue.d.ts"
+    ],
+    "exclude": [
+        "./node_modules/"
+    ]
+}
