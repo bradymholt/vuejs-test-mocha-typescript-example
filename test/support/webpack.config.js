@@ -14,7 +14,7 @@ var config = {
     Use webpack-node-externals to prevent bundling anything referenced in node_modules.
     At runtime, these modules can be loaded by Node and therefore do not need to be bundled by Webpack. */
   externals: [
-    nodeExternals({ modulesDir: path.join(__dirname, "../node_modules") })
+    nodeExternals({ modulesDir: path.join(__dirname, "../../node_modules") })
   ],
   resolve: {
     extensions: [".ts", ".js", ".vue"]

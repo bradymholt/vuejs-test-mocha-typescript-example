@@ -13,7 +13,7 @@
         "moduleResolution": "node"
     },
     "include": [
-        "./test/helloWorld.ts"
+        "./**/*.ts"
     ],
     "files": [
         "./vue.d.ts"

@@ -7,10 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "cd ./test && ../node_modules/.bin/mocha-webpack --require ./domMocker.js --webpack-config ./webpack.config.js helloWorld.ts"
+    "test": "cd ./test && ../node_modules/.bin/mocha-webpack --require ./support/domMocker.js --webpack-config ./support/webpack.config.js --recursive *.ts"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/chai": "^4.0.1",
     "@types/mocha": "^2.2.41",
@@ -19,7 +19,7 @@
     "css-loader": "^0.28.4",
     "jsdom": "^11.0.0",
     "mocha": "^3.4.2",
-    "mocha-webpack": "^0.7.0",
+    "mocha-webpack": "^1.0.0-beta.1",
     "ts-loader": "^2.2.1",
     "ts-node": "^3.1.0",
     "typescript": "^2.3.4",

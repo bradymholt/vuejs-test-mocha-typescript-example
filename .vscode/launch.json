@@ -11,10 +11,11 @@
             "program": "${workspaceRoot}/node_modules/.bin/mocha-webpack",
             "args": [
                 "--require",
-                "domMocker.js",
+                "./support/domMocker.js",
                 "--webpack-config",
-                "./webpack.config.js",
-                "helloWorld.ts"
+                "./support/webpack.config.js",
+                "--recursive",
+                "*.ts"
             ],
             "cwd": "${workspaceRoot}/test",
             "smartStep": true
