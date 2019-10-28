@@ -2,6 +2,10 @@
 
 This is an example project demonstrating how to test Vue.js components defined with [vue-class-component](https://github.com/vuejs/vue-class-component) decorators using Mocha and TypeScript.
 
+## Setup
+
+Run `npm install`
+
 ## Run Tests
 
 To execute the test suite, run `npm test`.
